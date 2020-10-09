@@ -73,6 +73,7 @@ Although wrapper methods are much slower and more computationally expensive than
 
 ### Q3 Building a Decision Tree using Information Gain
 
+![](https://github.com/kuangzijian/UAlberta-Multimedia-Master-Program-MM811-2020-Assignment-1/blob/main/images/Decision%20Tree.png)
 ```
 H(D)= -1/2* LOG(1/2,2)-1/2*LOG(1/2,2) = 1
 H(D|A='X') = 3/4*(-2/3*LOG(2/3,2)-1/3*LOG(1/3,2))+1/4*(-0/1*LOG(0/1,2)-1/1*LOG(1/1,2)) = 0.689
@@ -83,7 +84,7 @@ g(D, A='Y') = H(D) - H(D|A='Y') = 1
 g(D, A='Z') = H(D) - H(D|A='Z') = 0
 Since attribute “Y” has highest IG (0.311), we use “Y” as root node.
 ```
-
+![Generated usking graphviz lib](https://github.com/kuangzijian/UAlberta-Multimedia-Master-Program-MM811-2020-Assignment-1/blob/main/images/diabetes.png)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -104,8 +105,5 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## References
-MNIST Data example. https://github.com/pytorch/examples/tree/master/mnist
-
-PyTorch GoogLeNet implementation. https://github.com/pytorch/vision/blob/master/torchvision/models/googlenet.py
 
 
