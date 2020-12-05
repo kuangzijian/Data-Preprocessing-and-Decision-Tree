@@ -58,20 +58,20 @@ This project focuses on topics:
 2. pip install -r requirements.txt
 ```
 
-### Q1 Do feature scaling by these two approaches and then explain what the reasons is for doing feature scaling:
+### 1 Do feature scaling by these two approaches and then explain what the reasons is for doing feature scaling:
 
 ```
 The reasons for doing feature scaling is to normalize the data within a small, specified range, so that it can speed up the calculations in machine learning algorithm.
 ```
 
-### Q2 Explain the two feature selection techniques, interpret the output, and discuss which technique you will use for a large dataset and why?
+### 2 Explain the two feature selection techniques, interpret the output, and discuss which technique you will use for a large dataset and why?
 
 ```
 The first technique is a filter method, it measures the relevance of features by their correlation with the outcome variable; the second technique is a wrapper method which measures how useful the feature is by training with a machine learning algorithm on it.
 Although wrapper methods are much slower and more computationally expensive than filter methods, I will still use the wrapper method on large dataset, because it can always provide the best subset of features. We also do not need to worry about overfitting problem by using wrapper method if the number of observations is sufficient.
 ```
 
-### Q3 Building a Decision Tree using Information Gain
+### 3 Building a Decision Tree using Information Gain
 
 ![](https://github.com/kuangzijian/UAlberta-Multimedia-Master-Program-MM811-2020-Assignment-1/blob/main/images/Decision%20Tree.png)
 ```
